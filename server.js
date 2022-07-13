@@ -9,6 +9,8 @@ app.get("/", (req, res) => {
   res.render("index", { text123: "world" });
 });
 
+const kek = "kek";
+
 const userRouter = router;
 
 app.use("/users", userRouter);
