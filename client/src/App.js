@@ -1,6 +1,6 @@
 import "./App.css";
-import Search from "./Components/Search/Search";
-import AgePopUp from "./Components/PopUps/AgePopUp";
+import Search from "./components/Search/Search";
+import AgePopUp from "./components/PopUps/AgePopUp";
 import React from "react";
 
 function App() {

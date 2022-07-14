@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search Kronik</title>
+    <link type="" href="" rel="stylesheet" media="screen" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form action="/users" method="POST">
+      <label for="location"></label>
+      <input
+        type="text"
+        id="location"
+        name="location"
+        placeholder="Enter Location"
+        value="<%= locals.name %>"
+      />
+      <button type="submit">Enter</button>
+    </form>
+  </body>
+</html>

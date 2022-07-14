@@ -25,7 +25,7 @@ label::before {
   height: 40px;
   border-radius: 30px;
   outline: none;
-  border: none;
+  border: 1px solid rgba(128, 128, 128, 0.462);
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 450;
